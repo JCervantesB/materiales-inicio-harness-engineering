@@ -1,0 +1,7 @@
+CREATE TABLE usuarios (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  email TEXT NOT NULL UNIQUE,
+  nombre TEXT NOT NULL,
+  password_hash TEXT NOT NULL,
+  creado_en TEXT NOT NULL
+);

@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: #1d2a33;
+  background: #f4f8fb;
+}
+
+.contenedor {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.barra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.barra h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.resumen {
+  color: #5c6b76;
+  font-size: 0.9rem;
+  margin: 0 0 1.25rem;
+}
+
+.form-tarea {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.form-tarea input {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #d7e0e7;
+  border-radius: 8px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid #cbd6de;
+  border-radius: 8px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lista li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid #e2e9ef;
+}
+
+.info {
+  min-width: 0;
+}
+
+.titulo {
+  font-weight: 600;
+}
+
+.titulo.completada {
+  text-decoration: line-through;
+  color: #8a98a3;
+}
+
+.descripcion {
+  margin: 0.3rem 0 0;
+  color: #5c6b76;
+  font-size: 0.9rem;
+}
+
+.vence {
+  display: inline-block;
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+  color: #2e85aa;
+}
+
+.acciones {
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.vacio {
+  color: #5c6b76;
+}
+
+.auth {
+  max-width: 360px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.auth h1 {
+  font-size: 1.4rem;
+}
+
+.auth form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+}
+
+.auth input {
+  padding: 0.6rem 0.8rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #d7e0e7;
+  border-radius: 8px;
+}
+
+.error {
+  color: #b3261e;
+}
